@@ -6,3 +6,7 @@ workers_dev = false
 
 [observability.logs]
 enabled = true
+
+[[kv_namespaces]]
+binding = "kv"
+id = "ccf66d363820442c9c49bbf5a311d636"
